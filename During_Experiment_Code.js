@@ -575,12 +575,7 @@ function loadNewVideo() {
             shuffledVideolist[
                 loopNo - 1
             ].videoURL;
-        alert(
-    "Trial: " + loopNo +
-    "\nVideo: " +
-    shuffledVideolist[loopNo - 1].videoName +
-    "\nURL: " + source.src
-);
+
 
         selectedVideoOriginalIndex =
             shuffledVideolist[
