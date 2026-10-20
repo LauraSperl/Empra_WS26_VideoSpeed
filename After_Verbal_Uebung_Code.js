@@ -210,8 +210,8 @@ skipAllowed = false;
 midVideoInst.style.zIndex = 80;
 
 midVideoInst.innerHTML =
-'<p><strong>Wie lange dauerte das zuvor gesehene Video?</strong></p>' +
-'<p>Bitte geben Sie die Dauer des Videos in Sekunden, auf eine Nachkommastelle genau, an.</p>' +
+'<p><strong>Und jetz noch die Dauerschätzung!</strong></p>' +
+'<p>Bitte geben Sie die Dauer des Videos an. Angabe in Sekunden bis auf eine Nachkommastelle möglich.</p>' +
 '<input id="practiceVerbalInput" type="text" inputmode="decimal" autocomplete="off" style="display:block;margin:12px auto;padding:10px;width:180px;font-size:22px;text-align:center">' +
 '<p id="practiceVerbalError" style="color:#a11717;min-height:1.5em"></p>';
 
