@@ -23,34 +23,33 @@ weiterButton.addEventListener('click', function() {
 document.getElementById('dropdownMenuDivider')?.style?.setProperty('display', 'none');
 
 const videolist = [
-    { videoURL: window.empraConfig.video1,  originalIndex: 1,  videoName: "videoA_033" },
-    { videoURL: window.empraConfig.video2,  originalIndex: 2,  videoName: "videoA_050" },
-    { videoURL: window.empraConfig.video3,  originalIndex: 3,  videoName: "videoA_100" },
-    { videoURL: window.empraConfig.video4,  originalIndex: 4,  videoName: "videoA_200" },
-    { videoURL: window.empraConfig.video5,  originalIndex: 5,  videoName: "videoA_300" },
+    { videoURL: window.empraConfig.video1,  originalIndex: 1,  videoName: "videoA_033", duration: null },
+  { videoURL: window.empraConfig.video2,  originalIndex: 2,  videoName: "videoA_050", duration: null },
+  { videoURL: window.empraConfig.video3,  originalIndex: 3,  videoName: "videoA_100", duration: null },
+  { videoURL: window.empraConfig.video4,  originalIndex: 4,  videoName: "videoA_200", duration: null },
+  { videoURL: window.empraConfig.video5,  originalIndex: 5,  videoName: "videoA_300", duration: null },
+  { videoURL: window.empraConfig.video6, originalIndex: 21, videoName: "videoA_000", duration: null },
 
-    { videoURL: window.empraConfig.video6,  originalIndex: 6,  videoName: "videoB_033" },
-    { videoURL: window.empraConfig.video7,  originalIndex: 7,  videoName: "videoB_050" },
-    { videoURL: window.empraConfig.video8,  originalIndex: 8,  videoName: "videoB_100" },
-    { videoURL: window.empraConfig.video9,  originalIndex: 9,  videoName: "videoB_200" },
-    { videoURL: window.empraConfig.video10, originalIndex: 10, videoName: "videoB_300" },
+  { videoURL: window.empraConfig.video7,  originalIndex: 6,  videoName: "videoB_033", duration: null },
+  { videoURL: window.empraConfig.video8,  originalIndex: 7,  videoName: "videoB_050", duration: null },
+  { videoURL: window.empraConfig.video9,  originalIndex: 8,  videoName: "videoB_100", duration: null },
+  { videoURL: window.empraConfig.video10, originalIndex: 9, videoName: "videoB_200", duration: null },
+  { videoURL: window.empraConfig.video11, originalIndex: 10, videoName: "videoB_300", duration: null },
+  { videoURL: window.empraConfig.video12, originalIndex: 22, videoName: "videoB_000", duration: null },
 
-    { videoURL: window.empraConfig.video11, originalIndex: 11, videoName: "videoC_033" },
-    { videoURL: window.empraConfig.video12, originalIndex: 12, videoName: "videoC_050" },
-    { videoURL: window.empraConfig.video13, originalIndex: 13, videoName: "videoC_100" },
-    { videoURL: window.empraConfig.video14, originalIndex: 14, videoName: "videoC_200" },
-    { videoURL: window.empraConfig.video15, originalIndex: 15, videoName: "videoC_300" },
+  { videoURL: window.empraConfig.video13, originalIndex: 11, videoName: "videoC_033", duration: null },
+  { videoURL: window.empraConfig.video14, originalIndex: 12, videoName: "videoC_050", duration: null },
+  { videoURL: window.empraConfig.video15, originalIndex: 13, videoName: "videoC_100", duration: null },
+  { videoURL: window.empraConfig.video16, originalIndex: 14, videoName: "videoC_200", duration: null },
+  { videoURL: window.empraConfig.video17, originalIndex: 15, videoName: "videoC_300", duration: null },
+  { videoURL: window.empraConfig.video18, originalIndex: 23, videoName: "videoC_000", duration: null },
 
-    { videoURL: window.empraConfig.video16, originalIndex: 16, videoName: "videoD_033" },
-    { videoURL: window.empraConfig.video17, originalIndex: 17, videoName: "videoD_050" },
-    { videoURL: window.empraConfig.video18, originalIndex: 18, videoName: "videoD_100" },
-    { videoURL: window.empraConfig.video19, originalIndex: 19, videoName: "videoD_200" },
-    { videoURL: window.empraConfig.video20, originalIndex: 20, videoName: "videoD_300" },
-
-    { videoURL: window.empraConfig.video21, originalIndex: 21, videoName: "videoA_still" },
-    { videoURL: window.empraConfig.video22, originalIndex: 22, videoName: "videoB_still" },
-    { videoURL: window.empraConfig.video23, originalIndex: 23, videoName: "videoC_still" },
-    { videoURL: window.empraConfig.video24, originalIndex: 24, videoName: "videoD_still" }
+  { videoURL: window.empraConfig.video19, originalIndex: 16, videoName: "videoD_033", duration: null },
+  { videoURL: window.empraConfig.video20, originalIndex: 17, videoName: "videoD_050", duration: null },
+  { videoURL: window.empraConfig.video21, originalIndex: 18, videoName: "videoD_100", duration: null },
+  { videoURL: window.empraConfig.video22, originalIndex: 19, videoName: "videoD_200", duration: null },
+  { videoURL: window.empraConfig.video23, originalIndex: 20, videoName: "videoD_300", duration: null },
+  { videoURL: window.empraConfig.video24, originalIndex: 24, videoName: "videoD_000", duration: null }
 ];
 function valuesOfKey(dict, key) {
     return Object.values(dict)
