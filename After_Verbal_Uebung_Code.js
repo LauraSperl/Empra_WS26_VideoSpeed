@@ -511,6 +511,7 @@ measurementAllowed &&
 isKeyDown
 ) {
 setFrameColor('grey');
+midVideoInst.innerHTML = '';
 measurementDone = true;
 measurementAllowed = false;
 isKeyDown = false;
