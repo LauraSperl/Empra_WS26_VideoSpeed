@@ -211,7 +211,7 @@ midVideoInst.style.zIndex = 80;
 
 midVideoInst.innerHTML =
 '<p><strong>Und jetzt noch die Dauerschätzung!</strong></p>' +
-'<p>Bitte geben Sie die wahrgenommene Dauer des zuvorgesehenen Videos an. (Angabe in Sekunden bis auf eine Nachkommastelle möglich. Danach mit Enter bestätigen.) </p>' +
+'<p>Bitte geben Sie die wahrgenommene Dauer des zuvor gesehenen Videos an. (Angabe in Sekunden bis auf eine Nachkommastelle möglich. Danach mit Enter bestätigen.) </p>' +
 '<input id="practiceVerbalInput" type="text" inputmode="decimal" autocomplete="off" style="display:block;margin:12px auto;padding:10px;width:180px;font-size:22px;text-align:center">' +
 '<p id="practiceVerbalError" style="color:#a11717;min-height:1.5em"></p>';
 
