@@ -516,7 +516,7 @@ measurementAllowed = false;
 isKeyDown = false;
 setTimeout(() => {
     showVerbalEstimate();
-}, 500);
+}, 2000);
 }
 });
 
