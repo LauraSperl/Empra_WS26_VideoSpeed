@@ -511,7 +511,7 @@ document.addEventListener(
 
             setTimeout(() => {
     showVerbalEstimate();
-}, 500);
+}, 1000);
         }
     }
 );
