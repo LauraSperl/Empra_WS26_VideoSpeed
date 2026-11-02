@@ -514,7 +514,9 @@ setFrameColor('grey');
 measurementDone = true;
 measurementAllowed = false;
 isKeyDown = false;
-showVerbalEstimate();
+setTimeout(() => {
+    showVerbalEstimate();
+}, 500);
 }
 });
 
