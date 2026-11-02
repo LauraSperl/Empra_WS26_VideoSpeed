@@ -509,7 +509,9 @@ document.addEventListener(
             isKeyDown = false;
             measurementAllowed = false;
 
-            showVerbalEstimate();
+            setTimeout(() => {
+    showVerbalEstimate();
+}, 500);
         }
     }
 );
